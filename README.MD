@@ -358,9 +358,9 @@ Preview records:
 ```sql
 SELECT *
 FROM iceberg_data_test.dev.deepa_20260222
+
 LIMIT 10;
 ```
-
 ---
 
 # Step 11 — Debugging the Spark → Iceberg Pipeline
@@ -717,3 +717,24 @@ Recommended script improvements:
 * Add Spark adaptive query settings
 * Add retry logic for schema casts
 
+## Relative Links
+
+| Function | location | 
+|----------|----------|
+| slack  | #apptio-snowflake_to_watsonx-data | 
+| slack  | #apptio-watsonx-data |
+| Where to log bugs  | https://github.ibm.com/lakehouse/tracker/issues  | 
+| S3 write Walkthrough  | https://github.ibm.com/mike-maher1/apptio  | 
+| Monday Board | https://ibm.monday.com/boards/18392181779/views/226970361/pulses/11176390481| 
+| Runbook  | https://www.notion.so/yiqunzhang/Playbook-Setup-Ingestion-Job-on-wxd-3035543b3e2080de9311c4377901cc5b#3055543b3e208015b999f09bfe5bef7b | 
+
+## Contacts
+
+| Function | Contanct | 
+|----------|----------|
+| UI-Watsonx.data | @rachnajain | 
+| UI-Watsonx.data | @Manjot Sidhu  | 
+| UI-Watsonx | @Rasika Guru| 
+| UI-Watsonx | @Saniya Nangia| 
+| Data Ingestion | @Prakash Palaniappan | 
+| Data Ingestion | @anvith.bangera1 | 
